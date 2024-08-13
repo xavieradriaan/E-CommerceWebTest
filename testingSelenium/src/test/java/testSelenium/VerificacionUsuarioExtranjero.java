@@ -56,7 +56,7 @@ public class VerificacionUsuarioExtranjero {
 
         WebElement campoCid = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='cid']")));
         campoCid.clear();
-        campoCid.sendKeys("0956257497");
+        campoCid.sendKeys("0956257491");
 
         try {
             Thread.sleep(1000);
